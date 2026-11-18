@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tinysd"
 version = "0.1.0"
 description = "A small wrapper around diffusers for Stable Diffusion 1.x and SDXL with A1111-style prompts."
+readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "torch",
