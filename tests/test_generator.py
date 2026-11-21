@@ -79,8 +79,7 @@ class TestPublicApi(unittest.TestCase):
         self.assertIs(sd.SDImageGenerator, SDImageGenerator)
         self.assertIs(sd.convert_a1111_to_compel, convert_a1111_to_compel)
         for name in ("get_stable_diffusion_pipeline", "generate_image", "set_scheduler",
-                     "SCHEDULERS", "MODEL_ID_ALIASES", "StableDiffusionOutput",
-                     "_is_sdxl_pipeline", "_ensure_text_model_attr", "_convert_a1111_segment_to_compel"):
+                     "SCHEDULERS", "MODEL_ID_ALIASES", "StableDiffusionOutput"):
             self.assertTrue(hasattr(sd, name), name)
 
 
